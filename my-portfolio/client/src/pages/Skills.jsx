@@ -128,15 +128,15 @@ const Skills = () => {
           data-aos-duration="1000"
           className="mb-16 text-center"
         >
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-blue-500">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-500">
             My Skills
           </p>
 
           <h1 className="text-4xl font-extrabold sm:text-5xl">
-            Technologies I <span className="text-blue-500">Work With</span>
+            Technologies I <span className="text-cyan-500">Work With</span>
           </h1>
 
-          <div className="mx-auto mt-5 h-1 w-16 rounded-full bg-blue-600"></div>
+          <div className="mx-auto mt-5 h-1 w-16 rounded-full bg-cyan-600"></div>
 
           <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-gray-400 sm:text-lg">
             I work with modern web development technologies to build
@@ -156,7 +156,7 @@ const Skills = () => {
             >
               {/* Category Heading */}
               <div className="mb-8 flex items-center gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600/10 text-2xl">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-600/10 text-2xl">
                   {category.icon}
                 </div>
 
@@ -178,7 +178,7 @@ const Skills = () => {
                     key={skill.name}
                     data-aos="fade-up"
                     data-aos-delay={skillIndex * 100}
-                    className="rounded-xl border border-white/5 bg-gray-950/70 p-5 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40"
+                    className="rounded-xl border border-white/5 bg-gray-950/70 p-5 transition duration-300 hover:-translate-y-1 hover:border-cyan-500/40"
                   >
                     {/* Skill Header */}
                     <div className="flex items-center justify-between gap-4">
@@ -186,7 +186,7 @@ const Skills = () => {
                         {skill.name}
                       </h3>
 
-                      <span className="text-sm font-semibold text-blue-500">
+                      <span className="text-sm font-semibold text-cyan-500">
                         {skill.level}
                       </span>
                     </div>
@@ -199,7 +199,7 @@ const Skills = () => {
                     {/* Progress Bar */}
                     <div className="mt-5 h-2 overflow-hidden rounded-full bg-gray-800">
                       <div
-                        className="h-full rounded-full bg-blue-600 transition-all duration-1000"
+                        className="h-full rounded-full bg-cyan-600 transition-all duration-1000"
                         style={{ width: skill.level }}
                       ></div>
                     </div>
@@ -214,10 +214,10 @@ const Skills = () => {
         <div
           data-aos="zoom-in"
           data-aos-duration="1000"
-          className="mt-16 rounded-2xl border border-blue-500/20 bg-blue-600/5 p-8 text-center"
+          className="mt-16 rounded-2xl border border-cyan-500/20 bg-cyan-600/5 p-8 text-center"
         >
           <h2 className="text-2xl font-bold sm:text-3xl">
-            Always <span className="text-blue-500">Learning</span>
+            Always <span className="text-cyan-500">Learning</span>
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl leading-7 text-gray-400">

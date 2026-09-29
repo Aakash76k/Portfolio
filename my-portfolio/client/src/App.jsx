@@ -11,6 +11,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Education from "./pages/Education";
 import Contact from "./pages/Contact";
+import HireMe from "./pages/HireMe";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/education" element={<Education />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/hire-me" element={<HireMe />} />
       </Routes>
      <Footer/>
     </>

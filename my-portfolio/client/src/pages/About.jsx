@@ -11,15 +11,15 @@ const About = () => {
           data-aos-duration="1000"
           className="mb-16 text-center"
         >
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-blue-500">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-500">
             About Me
           </p>
 
           <h1 className="text-4xl font-extrabold sm:text-5xl">
-            Get to Know <span className="text-blue-500">Me</span>
+            Get to Know <span className="text-cyan-500">Me</span>
           </h1>
 
-          <div className="mx-auto mt-5 h-1 w-16 rounded-full bg-blue-600"></div>
+          <div className="mx-auto mt-5 h-1 w-16 rounded-full bg-cyan-600"></div>
         </div>
 
         {/* Main Content */}
@@ -32,7 +32,7 @@ const About = () => {
           >
             <h2 className="text-3xl font-bold leading-tight sm:text-4xl">
               I'm Aakash, a{" "}
-              <span className="text-blue-500">
+              <span className="text-cyan-500">
                 Full Stack + Gen AI Developer
               </span>
             </h2>
@@ -64,8 +64,8 @@ const About = () => {
             className="grid gap-5 sm:grid-cols-2"
           >
             {/* Card 1 */}
-            <div className="rounded-2xl border border-white/10 bg-gray-900 p-6 transition duration-300 hover:-translate-y-2 hover:border-blue-500/40">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600/10 text-2xl">
+            <div className="rounded-2xl border border-white/10 bg-gray-900 p-6 transition duration-300 hover:-translate-y-2 hover:border-cyan-500/40">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-600/10 text-2xl">
                 💻
               </div>
 
@@ -80,8 +80,8 @@ const About = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="rounded-2xl border border-white/10 bg-gray-900 p-6 transition duration-300 hover:-translate-y-2 hover:border-blue-500/40">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600/10 text-2xl">
+            <div className="rounded-2xl border border-white/10 bg-gray-900 p-6 transition duration-300 hover:-translate-y-2 hover:border-cyan-500/40">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-600/10 text-2xl">
                 🤖
               </div>
 
@@ -96,8 +96,8 @@ const About = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="rounded-2xl border border-white/10 bg-gray-900 p-6 transition duration-300 hover:-translate-y-2 hover:border-blue-500/40">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600/10 text-2xl">
+            <div className="rounded-2xl border border-white/10 bg-gray-900 p-6 transition duration-300 hover:-translate-y-2 hover:border-cyan-500/40">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-600/10 text-2xl">
                 🚀
               </div>
 
@@ -112,8 +112,8 @@ const About = () => {
             </div>
 
             {/* Card 4 */}
-            <div className="rounded-2xl border border-white/10 bg-gray-900 p-6 transition duration-300 hover:-translate-y-2 hover:border-blue-500/40">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600/10 text-2xl">
+            <div className="rounded-2xl border border-white/10 bg-gray-900 p-6 transition duration-300 hover:-translate-y-2 hover:border-cyan-500/40">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-600/10 text-2xl">
                 📚
               </div>
 
@@ -136,7 +136,7 @@ const About = () => {
           className="mt-20 rounded-2xl border border-white/10 bg-gray-900 p-8"
         >
           <h3 className="text-center text-2xl font-bold">
-            My Development <span className="text-blue-500">Stack</span>
+            My Development <span className="text-cyan-500">Stack</span>
           </h3>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -155,7 +155,7 @@ const About = () => {
             ].map((tech) => (
               <span
                 key={tech}
-                className="rounded-lg border border-white/10 bg-gray-950 px-5 py-3 text-sm font-medium text-gray-300 transition duration-300 hover:border-blue-500 hover:text-blue-500"
+                className="rounded-lg border border-white/10 bg-gray-950 px-5 py-3 text-sm font-medium text-gray-300 transition duration-300 hover:border-cyan-500 hover:text-cyan-500"
               >
                 {tech}
               </span>

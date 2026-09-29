@@ -1,6 +1,6 @@
+
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,8 +17,8 @@ const Navbar = () => {
   const linkStyle = ({ isActive }) =>
     `relative text-sm font-medium transition duration-300 ${
       isActive
-        ? "text-blue-500"
-        : "text-gray-300 hover:text-blue-500"
+        ? "text-cyan-500"
+        : "text-gray-300 hover:text-cyan-500"
     }`;
 
   return (
@@ -33,8 +33,9 @@ const Navbar = () => {
         <NavLink
           to="/"
           className="text-2xl font-bold tracking-wide text-white"
+          onClick={() => setMenuOpen(false)}
         >
-          Aakash<span className="text-blue-500">.</span>
+          Aakash<span className="text-cyan-400">.</span>
         </NavLink>
 
         {/* Desktop Navigation */}
@@ -52,8 +53,8 @@ const Navbar = () => {
 
           {/* Hire Me */}
           <NavLink
-            to="/contact"
-            className="rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition duration-300 hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/20"
+            to="/hire-me"
+            className="rounded-lg bg-cyan-400 px-5 py-2.5 text-sm font-semibold text-white transition duration-300 hover:bg-cyan-700 hover:shadow-lg hover:shadow-cyan-500/20"
           >
             Hire Me
           </NavLink>
@@ -63,7 +64,7 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="text-2xl text-white md:hidden"
+          className="text-2xl text-cyan-400 md:hidden"
           aria-label="Toggle menu"
         >
           {menuOpen ? "✕" : "☰"}
@@ -84,8 +85,8 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   `text-sm font-medium transition ${
                     isActive
-                      ? "text-blue-500"
-                      : "text-gray-300 hover:text-blue-500"
+                      ? "text-cyan-500"
+                      : "text-gray-300 hover:text-cyan-500"
                   }`
                 }
               >
@@ -93,10 +94,11 @@ const Navbar = () => {
               </NavLink>
             ))}
 
+            {/* Mobile Hire Me */}
             <NavLink
-              to="/contact"
+              to="/hire-me"
               onClick={() => setMenuOpen(false)}
-              className="rounded-lg bg-blue-600 px-5 py-3 text-center font-semibold text-white transition hover:bg-blue-700"
+              className="rounded-lg bg-cyan-600 px-5 py-3 text-center font-semibold text-white transition hover:bg-cyan-700"
             >
               Hire Me
             </NavLink>
@@ -105,9 +107,8 @@ const Navbar = () => {
         </div>
       )}
     </nav>
-    
   );
-  
 };
 
 export default Navbar;
+

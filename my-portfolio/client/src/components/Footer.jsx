@@ -13,7 +13,7 @@ const Footer = () => {
               to="/"
               className="text-2xl font-extrabold tracking-wide"
             >
-              Aakash<span className="text-blue-500">.</span>
+              Aakash<span className="text-cyan-500">.</span>
             </NavLink>
 
             <p className="mt-4 max-w-sm text-sm leading-7 text-gray-400">
@@ -29,42 +29,42 @@ const Footer = () => {
             <div className="mt-5 flex flex-col gap-3">
               <NavLink
                 to="/"
-                className="text-sm text-gray-400 transition hover:text-blue-500"
+                className="text-sm text-gray-400 transition hover:text-cyan-500"
               >
                 Home
               </NavLink>
 
               <NavLink
                 to="/about"
-                className="text-sm text-gray-400 transition hover:text-blue-500"
+                className="text-sm text-gray-400 transition hover:text-cyan-500"
               >
                 About
               </NavLink>
 
               <NavLink
                 to="/skills"
-                className="text-sm text-gray-400 transition hover:text-blue-500"
+                className="text-sm text-gray-400 transition hover:text-cyan-500"
               >
                 Skills
               </NavLink>
 
               <NavLink
                 to="/projects"
-                className="text-sm text-gray-400 transition hover:text-blue-500"
+                className="text-sm text-gray-400 transition hover:text-cyan-500"
               >
                 Projects
               </NavLink>
 
               <NavLink
                 to="/education"
-                className="text-sm text-gray-400 transition hover:text-blue-500"
+                className="text-sm text-gray-400 transition hover:text-cyan-500"
               >
                 Education
               </NavLink>
 
               <NavLink
                 to="/contact"
-                className="text-sm text-gray-400 transition hover:text-blue-500"
+                className="text-sm text-gray-400 transition hover:text-cyan-500"
               >
                 Contact
               </NavLink>
@@ -87,14 +87,14 @@ const Footer = () => {
 
               <a
                 href="#"
-                className="text-sm text-gray-400 transition hover:text-blue-500"
+                className="text-sm text-gray-400 transition hover:text-cyan-500"
               >
                 LinkedIn
               </a>
 
               <a
                 href="mailto:your-email@gmail.com"
-                className="text-sm text-gray-400 transition hover:text-blue-500"
+                className="text-sm text-gray-400 transition hover:text-cyan-500"
               >
                 Email
               </a>
@@ -111,8 +111,8 @@ const Footer = () => {
             </p>
 
             <p className="text-sm text-gray-500">
-              Built with <span className="text-blue-500">React</span> &{" "}
-              <span className="text-blue-500">Tailwind CSS</span>
+              Built with <span className="text-cyan-500">React</span> &{" "}
+              <span className="text-cyan-500">Tailwind CSS</span>
             </p>
           </div>
         </div>
