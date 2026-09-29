@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -104,7 +105,9 @@ const Navbar = () => {
         </div>
       )}
     </nav>
+    
   );
+  
 };
 
 export default Navbar;

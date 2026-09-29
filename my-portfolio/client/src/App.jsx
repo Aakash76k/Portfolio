@@ -40,7 +40,7 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <footer/>
+     <Footer/>
     </>
   );
 }
